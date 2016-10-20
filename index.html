@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+
+  <body>
+    <div class = "container">
+      <div class = "jumbotron">
+        <h2>Fortune Teller!</h2>
+      </div>
+
+      <form id = "fortune-telling">
+          <div class = "form-group">
+            <p>Lucky things that have happened to you this year, check all that apply.</p>
+            <input type = "checkbox" name="fortune" value="A dog will leave you a present in your shoe.">Found a four leaf clover.<br>
+            <input type = "checkbox" name="fortune" value="Your hair will turn into jelly and smell bad.">Found and tickled a leprechaun.<br>
+            <input type = "checkbox" name="fortune" value="Your arm will turn into a pretzel and you will have a sudden fixation on pretzels.">Touched a Blarney Stone.<br>
+            <input type = "checkbox" name="fortune" value="You will find true love. . . in a serious alcohol addiction.">Rubbed a rabbit's foot.<br>
+            <input type = "checkbox" name="fortune" value="The only money you will be able to carry is pennies.">Found a penny Abe side up.<br>
+          </div>
+          <div class = "form-group">
+            <p>Unlucky things that have happened to you this year, check all that apply.</p>
+            <input type = "checkbox" name="fortune" value="The world will open up and suck you into the dismal abyss of satan's torture chamber.">Opened an umbrella inside.<br>
+            <input type = "checkbox" name="fortune" value="Your mother's vertebrae implode.">Stepped on a crack.<br>
+            <input type = "checkbox" name="fortune" value="You'll have 777 years of bad luck.">Walked under a ladder.<br>
+            <input type = "checkbox" name="fortune" value="A panther will murder you.">Saw a black cat.<br>
+            <input type = "checkbox" name="fortune" value="Your children will all have hooves.">Stubbed your toe.<br>
+          </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+
+        <p id="first-sentence"><b>The things below will happen to you, in order:</b></p>
+        <ul>
+        <span id="fortune">
+        </span>
+        </ul>
+
+    </div>
+  </body>
+</html>
